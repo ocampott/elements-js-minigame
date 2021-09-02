@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ELEMENTS | Javascript CoderHouse</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>ELEMENTS</h1>
+            <h2>Ocampo Tomas</h2>
+            <h4>JS - Coderhouse</h4>
+        </header>
+    </div>
+
+    <div>
+        <h2>Elija un elemento</h2>
+    </div>
+
+    <div class="botones">
+        <div>
+            <button class="botones__boton btn--1" onclick="play('agua');">
+                <img src="/img/boton-agua.jpg" id="agua" class="botones__boton--img" alt="Logo del agua">
+            </button>
+            <p class="botones__boton--p">Agua</p>
+        </div>
+        <div>
+            <button class="botones__boton" onclick="play('aire');">
+                <img src="/img/boton-aire.jpg" id="aire" class="botones__boton--img" alt="Logo del aire">
+            </button>
+            <p class="botones__boton--p">Aire</p>
+        </div>
+        <div>
+            <button class="botones__boton" onclick="play('fuego');">
+                <img src="/img/boton-fuego.jpg" id="fuego" class="botones__boton--img" alt="Logo del fuego">
+            </button>
+            <p class="botones__boton--p">Fuego</p>
+        </div>
+        <div>
+            <button class="botones__boton" onclick="play('metal');">
+                <img src="/img/boton-metal.jpg" id="metal" class="botones__boton--img" alt="Logo del metal">
+            </button>
+            <p class="botones__boton--p">Metal</p>
+        </div>
+        <div>
+            <button class="botones__boton" onclick="play('tierra');">
+                <img src="/img/boton-tierra.jpg" id="tierra" class="botones__boton--img" alt="Logo de la tierra">
+            </button>
+            <p class="botones__boton--p">Tierra</p>
+        </div>
+    </div>
+
+    <div class="contadores">
+        <p class="contadores__contador"><span id="jugador"></span></p>
+        <p class="contadores__contador"><span id="maquina"></span></p>
+        <br>
+        <p id="separador"></p>
+        <h3 id="resultado"></h3>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
